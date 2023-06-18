@@ -1,0 +1,80 @@
+.content {
+	width: 70%;
+	min-width: 400px;
+	max-width: 2000px;
+	/* background: #9cea78; */
+}
+* {
+	outline: none;
+	-webkit-outline: none;
+	-ms-outline: none;
+	-webkit-user-select: none !important; /* Safari */
+	-ms-user-select: none !important; /* IE 10 and IE 11 */
+	user-select: none !important; /* Standard syntax */
+}
+*:focus-visible {
+	outline: none;
+	-webkit-outline: none;
+	-ms-outline: none;
+	border: none;
+	-webkit-border: none;
+	-ms-border: none;
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.badge {
+	/* overflow: hidden; */
+	/* inline-size: min-content; */
+	white-space: nowrap;
+	/* font-size: 0.8rem; */
+}
+.recent_expenses {
+	width: 35rem;
+	min-width: 20rem;
+	max-width: 45%;
+}
+/* 
+.content {
+	overflow: hidden;
+}
+.expenses_content {
+	overflow: hidden;
+}
+.container {
+	overflow: hidden;
+}
+.recent_expenses {
+	height: 45vh;
+}
+
+.expenses {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	-ms-overflow-style: none;
+	height: inherit;
+} */
+/* scroll bar */
+*::-webkit-scrollbar-thumb {
+	background: var(--color);
+	border-radius: 10px;
+}
+*::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+/* Track */
+*::-webkit-scrollbar-track {
+	background: #e8e8e8;
+	border-radius: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+	.canvasChart {
+		width: 240px !important;
+	}
+}
