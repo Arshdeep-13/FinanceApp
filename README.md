@@ -3,14 +3,14 @@
 Budgie app is a tool to track your expenses and analyze them, built with React and styled with Tailwind css.
 
 ## Demo (Desktop only)
-https://budgie-app-yusuflisawi.netlify.app/
+[link here](https://budgie-app-yusuflisawi.netlify.app/)
 
 ---
 
 ## Installation
 
 ```plaintext
-git clone git@github.com:YusufLisawi/budgie.git
+git clone git@github.com:Arshdeep-13/FinanceApp.git
 cd budgie
 npm install
 npm start
