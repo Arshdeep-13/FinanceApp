@@ -4,6 +4,7 @@ import { H1 } from "../../styles/twStyles";
 import Chart from "../Home/Chart";
 import Table from "./Table";
 import Pagination from "./Pagination";
+import "../../styles/styling.css"
 
 export default function Analytics() {
 	const { expenses, incomes } = useContext(AppContext);
@@ -47,7 +48,7 @@ export default function Analytics() {
 		<div className="container mx-auto px-4">
 			<h1 className={H1}>Analytics</h1>
 			<Chart type="Bar" width="35vw" labels={1} />
-			<br />
+			<br className="mediaRemove"/>
 			<br />
 			<Table rows={currentrows} />
 			{rows.length > 3 && (

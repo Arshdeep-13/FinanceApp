@@ -151,4 +151,10 @@
 		font-size: 6vw;
 		margin-left: 1vw;
 	}
+	.mediaRemove{
+		display: none;
+	}
+	.mediaAuto{
+		width: auto;
+	}
 }

@@ -3,6 +3,7 @@ import { Bar, Doughnut } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 import { AppContext } from "../../Context/AppContext";
 import { H1 } from "../../styles/twStyles";
+import "../../styles/styling.css";
 
 export default function Chart({ type, title, width, labels }) {
 	const { expenses } = useContext(AppContext);
@@ -107,8 +108,8 @@ export default function Chart({ type, title, width, labels }) {
 		<div className="chart flex-1">
 			<h1 className={H1 + " mb-3"}>{title}</h1>
 			<div
-				className={`${!labels && "canvasChart"} mx-auto`}
-				style={{ width: width }}
+				className={`${!labels && "canvasChart"} mx-auto mediaAuto`}
+				style={{ width: "auto" }}
 			>
 				{type === "Doughnut" ? (
 					<Doughnut
