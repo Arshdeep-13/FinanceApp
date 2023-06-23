@@ -3,6 +3,7 @@ import { INPUT, COL, BUTTON, LABEL, BUTTONCLEAR } from "../../styles/twStyles";
 import Swal from "sweetalert2";
 import { AppContext } from "../../Context/AppContext";
 import uuid from "react-uuid";
+import "../../styles/styling.css"
 
 export default function ExpenseForm() {
 	const selectOpt = useRef(null);
@@ -217,10 +218,10 @@ export default function ExpenseForm() {
 					</div>
 				</div>
 			</div>
-			<button className={BUTTON}>Add</button>
-			<button className={BUTTONCLEAR} style={{ marginLeft: "38vw" }} onClick={clearAllTransactions}>
-				Clear all
-			</button>
+			<div className="formButton" style={{display: "flex", justifyContent: "space-between"}}>
+				<button className={BUTTON}>Add</button>
+				<button className={BUTTONCLEAR} onClick={clearAllTransactions}>Clear all</button>
+			</div>
 		</form>
 	);
 }

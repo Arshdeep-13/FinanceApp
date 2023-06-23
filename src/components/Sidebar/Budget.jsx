@@ -3,6 +3,7 @@ import ControlPointIcon from "@mui/icons-material/ControlPoint";
 import { AppContext } from "../../Context/AppContext";
 import Swal from "sweetalert2";
 import ReactTooltip from "react-tooltip";
+import "../../styles/styling.css"
 
 export default function Budget({ isOpen }) {
 	const { budget, expenses, addBudget } = useContext(AppContext);
@@ -57,12 +58,12 @@ export default function Budget({ isOpen }) {
 				remaining <= 0
 					? "text-green-text bg-green-main"
 					: "text-red-text bg-red-main"
-			}`}
+			} mediaFoot`}
 		>
 			{isOpen ? (
 				<div>
 					<div className="flex items-center justify-between">
-						<h2 className="text-2xl font-bold mb-2">Budget</h2>
+						<h4 className="text-2xl font-bold mb-2">Budget</h4>
 						<ControlPointIcon
 							className="mb-2 cursor-pointer"
 							onClick={addIncome}
@@ -78,8 +79,8 @@ export default function Budget({ isOpen }) {
 							Add Income
 						</ReactTooltip>
 					</div>
-					<div className="remaining">
-						<span className="text-2xl font-semibold">
+					<div className="remaining mediaRemaining">
+						<span className="text-2xl font-semibold mediaRemaining">
 							{remaining}
 						</span>
 						<span

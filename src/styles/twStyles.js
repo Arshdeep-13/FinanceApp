@@ -1,5 +1,13 @@
-export const styleSidebar = `relative duration-300 bg-white
-	shadow-lg flex flex-col justify-between p-5`;
+export const styleSidebar = `
+  relative duration-300 bg-white shadow-lg flex flex-col justify-between p-5
+`;
+
+export const styleSidebarMediaQuery = `
+  @media screen and (max-width: 768px) {
+    background-color: red;
+    // Add any additional responsive styles for the Sidebar here
+  }
+`;
 
 export const styleToggler = `absolute cursor-pointer
 		w-6 border-2 hover:border-gray-400

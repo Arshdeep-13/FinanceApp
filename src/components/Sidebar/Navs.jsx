@@ -5,7 +5,7 @@ import BarChartIcon from "@mui/icons-material/BarChart";
 
 export default function Navs({ isOpen }) {
 	return (
-		<ul className="navs">
+		<ul className="navs mediaNavs">
 			<Nav icon={<HomeIcon />} link="Home" isOpen={isOpen} />
 			<Nav icon={<BarChartIcon />} link="Analytics" isOpen={isOpen} />
 		</ul>

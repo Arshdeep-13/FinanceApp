@@ -10,8 +10,8 @@ function App() {
 			<AppProvider>
 				<div className="app flex h-screen">
 					<Sidebar />
-					<div className="flex-1 flex place-content-center py-3 overflow-hidden">
-						<div className="content shadow-lg bg-white rounded-2xl p-4">
+					<div className="flex-1 flex place-content-center py-3 overflow-hidden mediaForm">
+						<div className="content shadow-lg bg-white rounded-2xl p-4 mediaFormBackground">
 							<Routes>
 								<Route path="/" exact element={<Home />} />
 								<Route

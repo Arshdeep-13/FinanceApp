@@ -4,14 +4,19 @@
 	max-width: 2000px;
 	/* background: #9cea78; */
 }
+
 * {
 	outline: none;
 	-webkit-outline: none;
 	-ms-outline: none;
-	-webkit-user-select: none !important; /* Safari */
-	-ms-user-select: none !important; /* IE 10 and IE 11 */
-	user-select: none !important; /* Standard syntax */
+	-webkit-user-select: none !important;
+	/* Safari */
+	-ms-user-select: none !important;
+	/* IE 10 and IE 11 */
+	user-select: none !important;
+	/* Standard syntax */
 }
+
 *:focus-visible {
 	outline: none;
 	-webkit-outline: none;
@@ -33,11 +38,13 @@
 	white-space: nowrap;
 	/* font-size: 0.8rem; */
 }
+
 .recent_expenses {
 	width: 35rem;
 	min-width: 20rem;
 	max-width: 45%;
 }
+
 /* 
 .content {
 	overflow: hidden;
@@ -63,10 +70,12 @@
 	background: var(--color);
 	border-radius: 10px;
 }
+
 *::-webkit-scrollbar {
 	width: 5px;
 	height: 5px;
 }
+
 /* Track */
 *::-webkit-scrollbar-track {
 	background: #e8e8e8;
@@ -76,5 +85,70 @@
 @media screen and (min-width: 1200px) {
 	.canvasChart {
 		width: 240px !important;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.mediaNav {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 19%;
+		position: fixed;
+		justify-content: space-evenly;
+		/* background-color: red; */
+	}
+	.mediaLogo{
+		flex-direction: row;
+		padding: 0px;
+		margin: 0px;
+		margin-bottom: 2vh;
+		margin-right: 11vw;
+		/* background-color: red; */
+	}
+	.mediaNavs{
+		display: flex;
+	}
+	.arrowSide{
+		display: none;
+	}
+	.mediaFoot{
+		height: 15vh;
+	}
+	.mediaRemaining{
+		font-size: 15px;
+		font-weight: bold;
+	}
+	.mediaForm{
+		position: relative;
+		margin-top: 18vh;
+		overflow: auto;
+	}
+	.mediaFormBackground{
+		width: 90%;
+		height: min-content;
+	}
+	.formButton{
+		display: flex;
+		justify-content: space-between;
+	}
+	.mediaWidth{
+		width: 22vw;
+	}
+}
+@media screen and (max-width: 410px){
+	.mediaWidth{
+		width: 22vw;
+	}
+	.mediaimg{
+		padding-left: 0;
+		column-gap: 0;
+	}
+	.mediaFormBackground{
+		width: 70%;
+	}
+	.mediaHeading{
+		font-size: 6vw;
+		margin-left: 1vw;
 	}
 }
