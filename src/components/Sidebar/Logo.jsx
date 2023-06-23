@@ -10,11 +10,11 @@ export default function Logo({ isOpen }) {
 		>
 			<img src={logo} alt="logo" className="w-10" />
 
-			<h1
+			<h1 style={{textAlign: "center"}}
 				className={`font-extrabold origin-left duration-100
 				text-brown-main text-3xl ${!isOpen && "opacity-0"} mediaHeading`}
 			>
-				NutCrackers
+				Finance-App #AR
 			</h1>
 		</div>
 	);
