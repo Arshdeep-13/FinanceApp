@@ -28,9 +28,9 @@ FinanceApp is a comprehensive finance management application designed to help yo
 Check out the live preview of FinanceApp [here](https://ar-finance.vercel.app).
 
 ## Screenshot
-![d1](https://github.com/Arshdeep-13/FinanceApp/assets/108752646/aa2de8d4-b46c-44ae-a0f3-d778aa6ff2c8)
-![d2](https://github.com/Arshdeep-13/FinanceApp/assets/108752646/ab2facc2-2726-4f46-8e74-b652b1407221)
-![d3](https://github.com/Arshdeep-13/FinanceApp/assets/108752646/aa302e81-2ea1-4f23-941a-ad85500ae5ca)
+![Preview 1](https://github.com/Arshdeep-13/FinanceApp/assets/108752646/aa2de8d4-b46c-44ae-a0f3-d778aa6ff2c8)
+![Preview 2](https://github.com/Arshdeep-13/FinanceApp/assets/108752646/ab2facc2-2726-4f46-8e74-b652b1407221)
+![Preview 3](https://github.com/Arshdeep-13/FinanceApp/assets/108752646/aa302e81-2ea1-4f23-941a-ad85500ae5ca)
 
 
 ## Installation
