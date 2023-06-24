@@ -96,6 +96,7 @@
 		height: 19%;
 		position: fixed;
 		justify-content: space-evenly;
+		padding-top: 0px;
 		/* background-color: red; */
 	}
 	.mediaLogo{
@@ -137,6 +138,16 @@
 	}
 }
 @media screen and (max-width: 410px){
+	.mediaNav {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 19%;
+		position: fixed;
+		justify-content: space-evenly;
+		padding-top: 0px;
+		/* background-color: red; */
+	}
 	.mediaWidth{
 		width: 22vw;
 	}
